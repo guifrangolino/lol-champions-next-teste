@@ -11,7 +11,7 @@ interface ChampionProps {
   }
 }
 
-export const blurDataURL =
+const blurDataURL =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdjsLGx+Q8AAyABtBnMkywAAAAASUVORK5CYII='
 
 export function Champion(props: ChampionProps) {

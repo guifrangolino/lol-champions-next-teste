@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 
-export const blurDataURL =
+const blurDataURL =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdjsLGx+Q8AAyABtBnMkywAAAAASUVORK5CYII='
 
 export default async function Champion({ params }: { params: { id: string } }) {
